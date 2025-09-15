@@ -1,0 +1,118 @@
+:root{
+
+    --cor-primaria: rgb(167, 2, 2);
+
+}
+
+body{
+
+    background-color: rgb(131, 0, 0);
+    background-image: url(image/Fundo\ site.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#barra {
+
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    left: 0px;
+    top: 0px;
+    background-color: var(--cor-primaria);
+    font-size: 18px;
+
+}
+
+#barra h1{
+
+    position: absolute;
+    left: 2%;
+    color: black;
+
+}
+
+.anime{
+
+    position: absolute;
+    left: 92%;
+    width: 23%;
+    color: black;
+
+}
+
+.jogos{
+
+    position: absolute;
+    left: 82%;
+    width: 23%;
+    color: black;
+
+}
+
+.musica{
+
+    position: absolute;
+    left: 72%;
+    width: 23%;
+    color: black;
+
+}
+
+.eve{
+
+    width: 50px;
+    position: absolute;
+    top: -7px;
+    left: -43px;
+
+}
+
+#textop {
+
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    left: 20%;
+    top: 0px;
+    top: 10%;
+    text-align: center;
+    background-color: rgb(226, 226, 226);
+     img {
+  width: 600px;
+  height: auto;
+    }
+
+}
+
+
+.botao1{
+
+    position: absolute;
+top: 400px;
+right: 480px;
+width: 200px;
+height: 50px;
+background-color: rgb(248, 180, 221);
+border-radius: 16px;
+box-shadow:  3px 3px 5px rgba(0,0,0,0.5);;
+font-size: x-large;
+font-family: cursive;
+color: rgb(12, 12, 12);
+}
+
+.botao2{
+
+    position: absolute;
+top: 660px;
+right: 480px;
+width: 200px;
+height: 50px;
+background-color: rgb(248, 180, 221);
+border-radius: 16px;
+box-shadow:  3px 3px 5px rgba(0,0,0,0.5);;
+font-size: x-large;
+font-family: cursive;
+color: rgb(12, 12, 12);
+}
